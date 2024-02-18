@@ -1,0 +1,17 @@
+{
+    "pages": [
+        "pages/send/send",
+        "pages/me/me",
+        "pages/index/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "navigationBarTitleText": "邮苑的陪伴",
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#FFFFFF"
+    },
+    "style": "v2",
+    "componentFramework": "glass-easel",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}
