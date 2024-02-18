@@ -1,0 +1,32 @@
+<!-- 这是初始登陆界面 -->
+<!-- 这个界面中现在存在问题，按钮尺寸无法改变 -->
+<view>
+    <form>
+        <!-- logo -->
+        <image src="./logo/陪伴@3x.png" id="logo"></image>
+        <!-- 背景颜色填充 -->
+        <view class="background"></view>
+        <!-- 输入姓名和学号的输入框 -->
+        <text id="xingming">姓名</text>
+        <view id="line_1"></view>
+        <view class="input-container_1">
+            <input class="inputWord" value="{{name}}" placeholder="请输入姓名" />
+        </view>
+        <text id="xuehao">学号</text>
+        <view id="line_2"></view>
+        <view class="input-container_2">
+            <input class="inputWord" value="{{studentID}}" placeholder="请输入学号" maxlength="10" />
+        </view>
+        <!-- 按钮 -->
+        <view class="buttonStyle">
+            <button class="buttonText" style="width: 622rpx;height: 104rpx" form-type="reset">立即登录</button>
+        </view>
+        <!-- 下方协议区 -->
+        <view id="textContainer">
+            <text id="xieyi">登录及接受</text>
+            <text id="xieyi_1"> 用户协议</text>
+            <text id="xieyi"> 及 </text>
+            <text id="xieyi_1">隐私授权</text>
+        </view>
+    </form>
+</view>

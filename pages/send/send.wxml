@@ -1,0 +1,19 @@
+<!-- 这个页面是用于发送和接受纸条的页面 -->
+<view>
+    <form>
+        <image class="picture" src="./图片素材/纸条画片@3x.png" />
+        <view class="background"></view>
+        <image src="./图片素材/peiban.png" class="logo" />
+        <view class="dataContainer">
+            <text class="data">日期:</text>
+        </view>
+        <view class="sortContainer">
+            <text class="sort">类别：</text>
+        </view>
+        <view>
+        <button class="send">传纸条</button>
+        <image src="./图片素材/icon_content_tray-export.png" class="sendPicture"/>
+        </view>
+        <!-- <button class="accept">收纸条</button> -->
+    </form>
+</view>
